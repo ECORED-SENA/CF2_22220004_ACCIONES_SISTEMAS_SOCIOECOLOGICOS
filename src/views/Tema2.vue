@@ -15,19 +15,109 @@
         .video(data-aos="flip-right")
           iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
    
-    .row.mb-5
+    .row.mb-5.p-5
       .col-lg-4.col-md-5
         p.text-white.mb-0.BGIMG04.p-2.text-bold Funciones y características de <br>los indicadores ambientales
 
-    .row.mb-5.align-items-center.justify-content-end.me-3.mt-5  
-      .col-lg-11.col-md-11.col-sm-11.BGIMG02
-        p.p-5.margenParrafo Las principales funciones de los indicadores ambientales son:
-        p.p-5.margenParrafo ✔	Llevar al mínimo las medidas o parámetros que se necesitan para realizar una representación de la realidad de la situación. 
-        p.p-5.margenParrafo ✔	Se podrán facilitar los procesos de comunicación.
-    .row.mb-5.align-items-center.justify-content-start
-      .col-lg-4.col-md-1.col-sm-1
-        img.subir(src='@/assets/curso/tema2/img02.png').mb-5
+      .row.mb-5.align-items-center.justify-content-end.me-3.mt-5  
+        .col-lg-10.col-md-11.col-sm-11.BGIMG02
+          p.p-3.margenParrafo Las principales funciones de los indicadores ambientales son:
+          p.p-2.margenParrafo ✔	Llevar al mínimo las medidas o parámetros que se necesitan para realizar una representación de la realidad de la situación. 
+          p.p-2.margenParrafo ✔	Se podrán facilitar los procesos de comunicación.
+      .row.mb-5.align-items-center.justify-content-start
+        .col-lg-4.col-md-1.col-sm-1
+          img.subir(src='@/assets/curso/tema2/img02.png').mb-5
+
       .col-lg-12
+      p Los indicadores ambientales se utilizan a diferentes escalas: internacional, nacional, regional y estatal, cada una para diferentes fines, la mayoría de ellos los usan para determinar el estado del medio ambiente, evaluar el desempeño de políticas ambientales y también para comunicar los progresos que se han adelantado en cuestión de desarrollo sustentable. 
+      p Además, los indicadores deben de tener ciertas características que se describen en la siguiente tabla: 
+  
+    .row.justify-content-center
+      .col-lg-12
+      .titulo-sexto.color-acento-contenido
+        h5 Tabla 1
+        br
+        span Características indicadores ambientales
+      .tabla-a.color-acento-botones.mb-5 
+        table
+          caption Nota. SENA (2021).
+          thead
+            tr
+              th.text-center Características
+              th.text-center Necesidad
+          tbody
+            tr
+              td Ofrecer el enfoque de las condiciones ambientales con respecto a las respuestas de la comunidad. 
+              td Es necesario que proporcionen información para entender con claridad el fenómeno que se va a tratar, para que así se puedan tomar decisiones que estén sustentadas. 
+            tr
+              td Ser sencillos, fáciles de interpretar y capaces de mostrar las variaciones en el tiempo.
+              td El indicador deberá comunicar el objetivo de una forma clara y concisa. 
+            tr
+              td Responder a cambios en el ambiente y las actividades humanas relacionadas.
+              td Es necesario proporcionar información de contexto para facilitar una comprensión clara de lo que el indicador está dando a entender.   
+            tr
+              td Proporcionar una base para las comparaciones internacionales.
+              td Es importante que los procedimientos que están siendo documentados estén sujetos a bases científicas de información para tener puntos de comparación confiables. 
+              
+            tr
+              td Ser aplicables a escala nacional o regional.
+              td Se debe considerar la escala en la confiabilidad o pertinencia de los indicadores para que puedan ser aplicados a diferentes escalas organizacionales. 
+             
+            tr
+              td Tener un valor con el cual puedan ser comparados.
+              td Se debe tener un valor de comparación del indicador para medir el avance en programas concretos y así poder evaluar más fácilmente su desempeño.
+              
+            tr
+              td Estar teórica y científicamente bien fundamentados.
+              td Es necesario que exista información aprovechable y que sea actualizado periódicamente.
+
+    .row.mb-5
+      .col-lg-5.col-md-5
+        p.text-white.mb-0.BGIMG04.p-4.text-bold Tipos de indicadores ambientales 
+
+    .row.mb-5
+      .col-lg-12
+       p Los indicadores ambientales se pueden clasificar según los datos disponibles. Estos son los tres tipos de indicadores ambientales que hay: 
+    .row.mb-5
+        .col-md-6.col-lg.mb-5.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema2/img03.png' alt='AvatarTop')
+            .tarjeta.color.BG01
+              .text-black.p-4
+                h2.text-center Tipo 1:
+                p Este tipo de indicador tiene datos que siempre se encuentran disponibles, ya que se obtienen en monitoreos que se realizan permanentemente. 
+        .col-md-6.col-lg.mb-5.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema2/img04.png' alt='AvatarTop')
+            //- .tarjeta debe ir acompañado de una de una de estas clases => 
+            //- .color-primario, .color.BG03, .color-acento-contenido, .color-acento-botones
+            //- estas clases tambien tienen un modificador --borde
+            .tarjeta.color.BG01
+              .p-4
+                h2.text-center Tipo 2: 
+                p Están basados en los datos que provienen del monitoreo permanente, pero a su vez necesitan información adicional, dado que los datos pueden o no pueden estar totalmente disponibles. 
+        .col-md-6.col-lg.mb-5.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema2/img05.png' alt='AvatarTop')
+            .tarjeta.color.BG01
+              .p-4
+                h2.text-center Tipo 3:
+                p Este tipo de indicadores no tienen una base estadística, ya que son principalmente indicadores conceptuales. 
+                
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+      .row.BGIMG05(titulo="Índice de bienestar económico sostenible")
+        .col-md-6.mb-4.mb-md-0
+          p Está netamente relacionado con la economía y remplaza el Producto Interno Bruto (PIB) como indicador de bienestar social, añadiendo variables como el consumo ajustado y una medida de discrepancia socioeconómica.
+        .col-md-6
+          figure
+            img(src='@/assets/curso/tema2/img06.png', alt='Texto que describa la imagen')
+      .row(titulo="Índice de desarrollo humano")
+        .col-md-6.mb-4.mb-md-0
+          p Tiene como finalidad determinar el estado de salud, de educación y de bienes económicos. 
+        .col-md-6
+          figure
+            img(src='@/assets/curso/tema2/img08.png', alt='Texto que describa la imagen')
+
 </template>
 
 <script>
