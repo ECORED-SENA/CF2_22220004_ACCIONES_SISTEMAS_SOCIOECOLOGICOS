@@ -13,7 +13,7 @@
 
         figure
         .video(data-aos="flip-right")
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/YnI3J9G8FiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
    
     .row.mb-5.p-5
       .col-lg-4.col-md-5
@@ -57,16 +57,13 @@
               td Es necesario proporcionar información de contexto para facilitar una comprensión clara de lo que el indicador está dando a entender.   
             tr
               td Proporcionar una base para las comparaciones internacionales.
-              td Es importante que los procedimientos que están siendo documentados estén sujetos a bases científicas de información para tener puntos de comparación confiables. 
-              
+              td Es importante que los procedimientos que están siendo documentados estén sujetos a bases científicas de información para tener puntos de comparación confiables.  
             tr
               td Ser aplicables a escala nacional o regional.
               td Se debe considerar la escala en la confiabilidad o pertinencia de los indicadores para que puedan ser aplicados a diferentes escalas organizacionales. 
-             
             tr
               td Tener un valor con el cual puedan ser comparados.
-              td Se debe tener un valor de comparación del indicador para medir el avance en programas concretos y así poder evaluar más fácilmente su desempeño.
-              
+              td Se debe tener un valor de comparación del indicador para medir el avance en programas concretos y así poder evaluar más fácilmente su desempeño.  
             tr
               td Estar teórica y científicamente bien fundamentados.
               td Es necesario que exista información aprovechable y que sea actualizado periódicamente.
@@ -103,6 +100,9 @@
               .p-4
                 h2.text-center Tipo 3:
                 p Este tipo de indicadores no tienen una base estadística, ya que son principalmente indicadores conceptuales. 
+
+        .col-lg-12.mb-5
+        p A continuación, se presentan algunos ejemplos de indicadores ambientales:
                 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row.BGIMG05(titulo="Índice de bienestar económico sostenible")
@@ -117,7 +117,42 @@
         .col-md-6
           figure
             img(src='@/assets/curso/tema2/img08.png', alt='Texto que describa la imagen')
-
+      .row(titulo="Índice de sostenibilidad ambiental")
+        .col-md-6.mb-4.mb-md-0
+          p Instrumento utilizado para evaluar las formas de actividad humana que trae repercusiones directas al planeta como emisiones de agentes contaminantes, uso de agroquímicos, crecimiento de la población,  consumo de energía, consumo de agua.
+        .col-md-6
+          figure
+            img(src='@/assets/curso/tema2/img09.png', alt='Texto que describa la imagen')
+      .row(titulo="Índice de desempeño ambiental")
+        .col-md-6.mb-4.mb-md-0
+          p Este indicador se usa para evaluar el rendimiento ambiental de las políticas que algún país haya implementado en un periodo de tiempo determinado.
+        .col-md-6
+          figure
+            img(src='@/assets/curso/tema2/img10.png', alt='Texto que describa la imagen')
+      .row(titulo="Índice global de economía verde")
+        .col-md-6.mb-4.mb-md-0
+          p Este indicador analiza las inversiones que están realizando los países para tener una economía que sea sostenible con el medio ambiente. 
+        .col-md-6
+          figure
+            img(src='@/assets/curso/tema2/img11.png', alt='Texto que describa la imagen')
+      .row(titulo="Huella ecológica")
+        .col-md-6.mb-4.mb-md-0
+          p Este indicador evalúa el impacto ambiental que trae consigo la demanda de recursos naturales por parte del ser humano para satisfacer sus necesidades. 
+        .col-md-6
+          figure
+            img(src='@/assets/curso/tema2/img12.png', alt='Texto que describa la imagen')
+      .row(titulo="Huella de carbono")
+        .col-md-6.mb-4.mb-md-0
+          p Este indicador provee la información sobre la cantidad de gases de efecto invernadero que se produce de forma directa o indirecta.
+        .col-md-6
+          figure
+            img(src='@/assets/curso/tema2/img13.png', alt='Texto que describa la imagen')
+      .row(titulo="Huella hídrica")
+        .col-md-6.mb-4.mb-md-0
+          p Este indicador es utilizado para cuantificar el uso del agua.
+        .col-md-6
+          figure
+            img(src='@/assets/curso/tema2/img14.png', alt='Texto que describa la imagen')
 </template>
 
 <script>

@@ -102,23 +102,23 @@
           h3 La participación activa en iniciativas que estén a favor de la biodiversidad: 
           p Un ejemplo es WBCSD por sus siglas en inglés The World Business Council for Sustainable Development, hace referencia a nuevas estrategias de innovación y desarrollo sostenible, en las cuales se cuenta con más de 200 compañías de 35 países y 20 diferentes sectores industriales.
       
-        .tarjeta.BG02.p-3(x="71%" y="35.5%")
+        .tarjeta.BG02.p-3(x="71%" y="34%")
           h3 Velar por la protección del recurso hídrico:
           p Implementando tecnologías de aprovechamiento de aguas lluvias o un reproceso de las aguas que se disponen, así mismo, adelantar sistemas de gestión del recurso hídrico para el control de consumo.
 
-        .tarjeta.BG02.p-3(x="37.8%" y="93%")
+        .tarjeta.BG02.p-3(x="70%" y="64%")
           h3 Ahorro de energía: 
           p Haciendo uso de energías renovables junto con el aumento de la eficiencia energética, la cual hace referencia a que solo sea utilizada la energía cuando sea totalmente necesaria, sea para iluminación o para procesos industriales.
 
-        .tarjeta.BG02.p-3(x="50%" y="93%")
+        .tarjeta.BG02.p-3(x="51%" y="75%")
           h3 Generación de energías alternativas: 
           p Existen diferentes maneras de generar energía, actualmente se está optando por energías de biomasa, las cuales aprovechan los residuos de la organización haciendo un reproceso.
 
-        .tarjeta.BG02.p-3(x="61.2%" y="93%")
+        .tarjeta.BG02.p-3(x="32%" y="64%")
           h3 Diseño de nuevos productos: 
           p La innovación en la creación de nuevos productos amigables con el medio ambiente cada día avanza más apresuradamente y se puede encontrar que muchos de los objetos que anteriormente eran netamente de plástico ahora se están realizando con materiales biodegradables.
 
-        .tarjeta.BG02.p-3(x="72.6%" y="93%")
+        .tarjeta.BG02.p-3(x="32%" y="34%")
           h3 Capacitaciones ambientales: 
           p en temas de clasificación de residuos, ahorro y uso eficiente del agua y energía, entre otros temas. 
 
