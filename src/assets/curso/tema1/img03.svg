@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="281.932" height="149.568" viewBox="0 0 281.932 149.568">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="310" height="329.75" viewBox="0 0 310 329.75">
   <defs>
-    <filter id="Elipse_4975" x="75.229" y="0" width="149.568" height="149.568" filterUnits="userSpaceOnUse">
+    <filter id="Elipse_4975" x="91.229" y="0" width="149.568" height="149.568" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feFlood flood-opacity="0.161"/>
@@ -8,17 +8,18 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="Grupo_113620" data-name="Grupo 113620" transform="translate(-503.5 -1824.001)">
+  <g id="Grupo_113620" data-name="Grupo 113620" transform="translate(-487.5 -1824.001)">
     <g id="Grupo_56207" data-name="Grupo 56207" transform="translate(503.5 1876.205)">
       <g id="Grupo_56119" data-name="Grupo 56119">
         <path id="Trazado_184960" data-name="Trazado 184960" d="M137.854,173.7l-23.921,39.16H216.947V173.7Z" transform="translate(-113.934 -173.704)" fill="#037562"/>
         <path id="Trazado_184961" data-name="Trazado 184961" d="M258.423,173.7l27.305,39.16H179.33V173.7Z" transform="translate(-3.796 -173.704)" fill="#037562"/>
       </g>
     </g>
+    <rect id="Background" width="310" height="265.736" transform="translate(487.5 1888.016)" fill="#79e4a4"/>
     <path id="Trazado_149752" data-name="Trazado 149752" d="M349.51,206.98h0a1054.865,1054.865,0,0,1-222.5,0h0V173.7h222.5Z" transform="translate(404.863 1702.502)" fill="#048c66"/>
     <g id="Grupo_113255" data-name="Grupo 113255">
-      <g transform="matrix(1, 0, 0, 1, 503.5, 1824)" filter="url(#Elipse_4975)">
-        <g id="Elipse_4975-2" data-name="Elipse 4975" transform="translate(84.23 6)" fill="#fff" stroke="#048c66" stroke-width="9">
+      <g transform="matrix(1, 0, 0, 1, 487.5, 1824)" filter="url(#Elipse_4975)">
+        <g id="Elipse_4975-2" data-name="Elipse 4975" transform="translate(100.23 6)" fill="#fff" stroke="#048c66" stroke-width="9">
           <circle cx="65.784" cy="65.784" r="65.784" stroke="none"/>
           <circle cx="65.784" cy="65.784" r="61.284" fill="none"/>
         </g>
