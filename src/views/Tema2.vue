@@ -15,8 +15,8 @@
         .video(data-aos="flip-right")
           iframe(width="560" height="315" src="https://www.youtube.com/embed/YnI3J9G8FiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
    
-    .row.mb-5.p-5
-      .col-lg-4.col-md-4
+    .row.mb-5
+      .col-lg-4.col-md-4.mb-4
         p.text-white.mb-0.BGIMG04.p-2.text-bold Funciones y características de <br>los indicadores ambientales
 
     .row.mb-5.align-items-center.justify-content-end.me-3.mt-5  
@@ -27,13 +27,14 @@
     .row.mb-5.align-items-center.justify-content-start
       .col-lg-4.col-md-1.col-sm-1
         img.subir(src='@/assets/curso/tema2/img02.png')
-    .row.mb-5
+    .row.mb-5.BGIMG01
       .col-lg-12
+      .col-lg-12.mb-5
         p Los indicadores ambientales se utilizan a diferentes escalas: internacional, nacional, regional y estatal, cada una para diferentes fines, la mayoría de ellos los usan para determinar el estado del medio ambiente, evaluar el desempeño de políticas ambientales y también para comunicar los progresos que se han adelantado en cuestión de desarrollo sustentable. 
         p Además, los indicadores deben de tener ciertas características que se describen en la siguiente tabla: 
   
-    .row.justify-content-center
-      .col-lg-10
+      .col-lg-1
+      .col-lg-10.mb-5
         .titulo-sexto.color-acento-contenido
           h5 Tabla 1
           br
@@ -43,9 +44,11 @@
             caption Nota. SENA (2021).
             thead
               tr
-                th.text-center Características
-                th.text-center Necesidad
-            tbody
+                th
+                  h4.text-center Características
+                th
+                  h4.text-center Necesidad
+            tbody.BG10
               tr
                 td Ofrecer el enfoque de las condiciones ambientales con respecto a las respuestas de la comunidad. 
                 td Es necesario que proporcionen información para entender con claridad el fenómeno que se va a tratar, para que así se puedan tomar decisiones que estén sustentadas. 
@@ -68,39 +71,38 @@
                 td Estar teórica y científicamente bien fundamentados.
                 td Es necesario que exista información aprovechable y que sea actualizado periódicamente.
 
-    .row.mb-5
-      .col-lg-5.col-md-5
+    
+      .col-lg-5.col-md-5.mb-5
         p.text-white.mb-0.BGIMG04.p-4.text-bold Tipos de indicadores ambientales 
 
-    .row.mb-5
-      .col-lg-12
+      .col-lg-12.mb-5
        p Los indicadores ambientales se pueden clasificar según los datos disponibles. Estos son los tres tipos de indicadores ambientales que hay: 
-    .row.mb-5
-        .col-md-6.col-lg.mb-5.mb-lg-0
-          .tarjeta-avatar
-            img(src='@/assets/curso/tema2/img03.png' alt='AvatarTop')
-            .tarjeta.color.BG01
-              .text-black.p-4
-                h2.text-center Tipo 1:
-                p Este tipo de indicador tiene datos que siempre se encuentran disponibles, ya que se obtienen en monitoreos que se realizan permanentemente. 
-        .col-md-6.col-lg.mb-5.mb-lg-0
-          .tarjeta-avatar
-            img(src='@/assets/curso/tema2/img04.png' alt='AvatarTop')
-            
-            .tarjeta.color.BG01
-              .p-4
-                h2.text-center Tipo 2: 
-                p Están basados en los datos que provienen del monitoreo permanente, pero a su vez necesitan información adicional, dado que los datos pueden o no pueden estar totalmente disponibles. 
-        .col-md-6.col-lg.mb-5.mb-lg-0
-          .tarjeta-avatar
-            img(src='@/assets/curso/tema2/img05.png' alt='AvatarTop')
-            .tarjeta.color.BG01
-              .p-4
-                h2.text-center Tipo 3:
-                p Este tipo de indicadores no tienen una base estadística, ya que son principalmente indicadores conceptuales. 
+    
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema2/img03.svg' alt='AvatarTop')
+          .tarjeta.color.BG01
+            .text-black.p-4
+              h2.text-center Tipo 1:
+              p Este tipo de indicador tiene datos que siempre se encuentran disponibles, ya que se obtienen en monitoreos que se realizan permanentemente. 
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema2/img04.svg' alt='AvatarTop')
+          
+          .tarjeta.color.BG01
+            .p-4
+              h2.text-center Tipo 2: 
+              p Están basados en los datos que provienen del monitoreo permanente, pero a su vez necesitan información adicional, dado que los datos pueden o no pueden estar totalmente disponibles. 
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema2/img05.svg' alt='AvatarTop')
+          .tarjeta.color.BG01
+            .p-4
+              h2.text-center Tipo 3:
+              p Este tipo de indicadores no tienen una base estadística, ya que son principalmente indicadores conceptuales. 
 
-        .col-lg-12.mb-5
-        p A continuación, se presentan algunos ejemplos de indicadores ambientales:
+      .col-lg-12.mb-5
+      p A continuación, se presentan algunos ejemplos de indicadores ambientales:
                 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta BGIMG05")
       .row(titulo="Índice de bienestar económico sostenible")

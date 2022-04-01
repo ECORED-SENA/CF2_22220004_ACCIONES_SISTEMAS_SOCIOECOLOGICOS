@@ -75,29 +75,29 @@
       ImagenInfografica.color-acento-botones.mb-5
         template(v-slot:imagen)
           figure(data-aos="fade-right")
-            img(src='@/assets/curso/tema1/img07.png') 
+            img(src='@/assets/curso/tema1/img07.svg') 
 
-        .tarjeta.BG02.p-3(x="50.6%" y="23%")
+        .tarjeta.BG02.p-3(x="51.2%" y="22.2%")
           h3 La participación activa en iniciativas que estén a favor de la biodiversidad: 
           p Un ejemplo es WBCSD por sus siglas en inglés The World Business Council for Sustainable Development, hace referencia a nuevas estrategias de innovación y desarrollo sostenible, en las cuales se cuenta con más de 200 compañías de 35 países y 20 diferentes sectores industriales.
       
-        .tarjeta.BG02.p-3(x="71%" y="34%")
+        .tarjeta.BG02.p-3(x="70%" y="32%")
           h3 Velar por la protección del recurso hídrico:
           p Implementando tecnologías de aprovechamiento de aguas lluvias o un reproceso de las aguas que se disponen, así mismo, adelantar sistemas de gestión del recurso hídrico para el control de consumo.
 
-        .tarjeta.BG02.p-3(x="70%" y="64%")
+        .tarjeta.BG02.p-3(x="70.8%" y="61%")
           h3 Ahorro de energía: 
           p Haciendo uso de energías renovables junto con el aumento de la eficiencia energética, la cual hace referencia a que solo sea utilizada la energía cuando sea totalmente necesaria, sea para iluminación o para procesos industriales.
 
-        .tarjeta.BG02.p-3(x="51%" y="75%")
+        .tarjeta.BG02.p-3(x="51%" y="71.5%")
           h3 Generación de energías alternativas: 
           p Existen diferentes maneras de generar energía, actualmente se está optando por energías de biomasa, las cuales aprovechan los residuos de la organización haciendo un reproceso.
 
-        .tarjeta.BG02.p-3(x="32%" y="64%")
+        .tarjeta.BG02.p-3(x="32%" y="61%")
           h3 Diseño de nuevos productos: 
           p La innovación en la creación de nuevos productos amigables con el medio ambiente cada día avanza más apresuradamente y se puede encontrar que muchos de los objetos que anteriormente eran netamente de plástico ahora se están realizando con materiales biodegradables.
 
-        .tarjeta.BG02.p-3(x="32%" y="34%")
+        .tarjeta.BG02.p-3(x="32%" y="32%")
           h3 Capacitaciones ambientales: 
           p En temas de clasificación de residuos, ahorro y uso eficiente del agua y energía, entre otros temas. 
 
@@ -110,73 +110,40 @@
           .col-lg-12
             p A continuación, se describen los sectores de los cuales hace referencia el Decreto 1076:
   
-    .row.justify-content-center.BGIMG01.mb-5
-      .col-lg-12.mb-4(data-aos="fade-right")         
-        SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-          .tarjeta.color.BG03.p-3
-            .row.mb-3.d-flex.align-items-center
-              .col-10          
-                p.text-center Sector hidrocarburos.
-          .tarjeta.color.BG03.p-3
-            .row.justify-content-center.align-items-center.mb-3
-              .col-10    
-                p.text-center Sector minero.
-          .tarjeta.color.BG03.p-3
-            .row.justify-content-center.mb-3
-              .col-10    
-                p.text-center La construcción de presas, represas o embalses, cualquiera sea su destinación con capacidad mayor de doscientos millones (200.000.000) de metros cúbicos de agua.
-          .tarjeta.color.BG03.p-3
-            .row.justify-content-center.mb-3
-              .col-10    
-                p.text-center Sector eléctrico. 
-          .tarjeta.color.BG03.p-3
-            .row.justify-content-center.mb-3
-              .col-10    
-                p.text-center Los proyectos para la generación de energía nuclear.
-          .tarjeta.color.BG03.p-3
-            .row.justify-content-center.mb-3
-              .col-10    
-                p.text-center Sector marítimo y portuario.
-          .tarjeta.color.BG03.p-3
-            .row.justify-content-center.mb-3
-              .col-10    
-                p.text-center La construcción y operación de aeropuertos internacionales.
-          .tarjeta.color.BG03.p-3
-            .row.justify-content-center.mb-3
-              .col-10    
-                p.text-center Ejecución de obras públicas. 
-          .tarjeta.color.BG03.p-3
-            .row.justify-content-center.mb-3
-              .col-10    
-                p.text-center La construcción y operación de distritos de riego y/o de drenaje con coberturas superiores a 20.000 hectáreas.
-          .tarjeta.color.BG03.p-3
-            .row.justify-content-center.mb-3
-              .col-10    
-                p.text-center Pesticidas.
-          .tarjeta.color.BG03.p-3
-            .row.justify-content-center.mb-3
-              .col-10    
-                p.text-center La importación y/o producción de aquellas sustancias, materiales o productos sujetos a controles por virtud de tratados, convenios y protocolos internacionales de carácter ambiental.
-          .tarjeta.color.BG03.p-3
-            .row.justify-content-center.mb-3
-              .col-10    
-                p.text-center Los proyectos que afecten las áreas del sistema de parques nacionales naturales.
-          .tarjeta.color.BG03.p-3
-            .row.justify-content-center.mb-3
-              .col-10    
-                p.text-center Los proyectos, obras o actividades de construcción de infraestructura o agroindustria que se pretendan realizar en las áreas protegidas públicas nacionales.
-          .tarjeta.color.BG03.p-3
-            .row.justify-content-center.mb-3
-              .col-10    
-                p.text-center Los proyectos que adelanten las Corporaciones Autónomas Regionales a que hace referencia el inciso segundo del numeral 19 del Artículo 31 de la Ley 99 de 1993.
-          .tarjeta.color.BG03.p-3
-            .row.justify-content-center.mb-3
-              .col-10    
-                p.text-center Los proyectos que requieran trasvase de una cuenca a otra, cuando al menos una de las dos presente un valor igual o superior a 2 metros cúbicos/segundo durante los períodos de mínimo caudal.
-          .tarjeta.color.BG03.p-3
-            .row.justify-content-center.mb-3
-              .col-10    
-                p.text-center La introducción al país de parentales, especies, subespecies, razas, híbridos o variedades foráneas con fines de cultivo, levante, control biológico, reproducción y/o comercialización, para establecerse o implantarse en medios naturales o artificiales, que puedan afectar la estabilidad de los ecosistemas o de la vida silvestre.
+    .row.BGIMG01.mb-5              
+      SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+        .row.align-items-center.tarjeta.BG03.p-5.mx-2        
+          p.text-center Sector hidrocarburos.
+        .tarjeta.BG03.p-5.row.align-items-center.mx-2
+          p.text-center Sector minero.
+        .tarjeta.BG03.p-5.row.align-items-center.mx-2
+          p.text-center La construcción de presas, represas o embalses, cualquiera sea su destinación con capacidad mayor de doscientos millones (200.000.000) de metros cúbicos de agua.
+        .tarjeta.BG03.p-5.row.align-items-center.mx-2   
+          p.text-center Sector eléctrico. 
+        .tarjeta.BG03.p-5.row.align-items-center.mx-2  
+          p.text-center Los proyectos para la generación de energía nuclear.
+        .tarjeta.BG03.p-5.row.align-items-center.mx-2    
+          p.text-center Sector marítimo y portuario.
+        .tarjeta.BG03.p-5.row.align-items-center.mx-2    
+          p.text-center La construcción y operación de aeropuertos internacionales.
+        .tarjeta.BG03.p-5.row.align-items-center.mx-2   
+          p.text-center Ejecución de obras públicas. 
+        .tarjeta.BG03.p-5.row.align-items-center.mx-2    
+          p.text-center La construcción y operación de distritos de riego y/o de drenaje con coberturas superiores a 20.000 hectáreas.
+        .tarjeta.BG03.p-5.row.align-items-center.mx-2                 
+          p.text-center Pesticidas.
+        .tarjeta.BG03.p-5.row.align-items-center.mx-2    
+          p.text-center La importación y/o producción de aquellas sustancias, materiales o productos sujetos a controles por virtud de tratados, convenios y protocolos internacionales de carácter ambiental.
+        .tarjeta.BG03.p-5.row.align-items-center.mx-2    
+          p.text-center Los proyectos que afecten las áreas del sistema de parques nacionales naturales.
+        .tarjeta.BG03.p-5.row.align-items-center.mx-2    
+          p.text-center Los proyectos, obras o actividades de construcción de infraestructura o agroindustria que se pretendan realizar en las áreas protegidas públicas nacionales.
+        .tarjeta.BG03.p-5.row.align-items-center.mx-2    
+          p.text-center Los proyectos que adelanten las Corporaciones Autónomas Regionales a que hace referencia el inciso segundo del numeral 19 del Artículo 31 de la Ley 99 de 1993.
+        .tarjeta.BG03.p-5.row.align-items-center.mx-2    
+          p.text-center Los proyectos que requieran trasvase de una cuenca a otra, cuando al menos una de las dos presente un valor igual o superior a 2 metros cúbicos/segundo durante los períodos de mínimo caudal.
+        .tarjeta.BG03.p-3.row.align-items-center.mx-2    
+          p.text-center La introducción al país de parentales, especies, subespecies, razas, híbridos o variedades foráneas con fines de cultivo, levante, control biológico, reproducción y/o comercialización, para establecerse o implantarse en medios naturales o artificiales, que puedan afectar la estabilidad de los ecosistemas o de la vida silvestre.
 
     
       .col-lg-12.col-md-11.col-sm-11.BGIMG03.p-5 
@@ -194,16 +161,16 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img11.png')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              h1 Restauración ecológica:
-              p Hace referencia al proceso que se adelanta para ayudar a cierto ecosistema a que se recupere luego de su degradación.
+            .tarjeta-flip__contenido.py-5.p-xl-5
+              h3.text-center.mb-5 Restauración ecológica
+              p.text-center Hace referencia al proceso que se adelanta para ayudar a cierto ecosistema a que se recupere luego de su degradación.
       .col-lg-6.mb-5
         .tarjeta.tarjeta-flip.color.BG03(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img12.png')})`}")
-            .tarjeta-flip__contenido.p-.p-xl-5
-              h1 Restauración del capital natural:
-              p  Refiere a diferentes aportes que van desde la ecología y la economía para la conservación de la naturaleza, así como la adaptación a los cambios climáticos. 
+            .tarjeta-flip__contenido.py-5.p-xl-5
+              h3.text-center.mb-4 Restauración del capital natural
+              p.text-center Refiere a diferentes aportes que van desde la ecología y la economía para la conservación de la naturaleza, así como la adaptación a los cambios climáticos. 
 
     
       .col-lg-6.mb-5
