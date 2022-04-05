@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5(data-aos="flip-right")
     .titulo-principal.color-acento-botones
       .titulo-principal__numero
         span 1
@@ -13,7 +13,7 @@
         <br>
         figure
         .video(data-aos="flip-right")
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/Ths1z77PHoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.align-items-center.justify.mb-5  
       .col-lg-12
         p Un plan de manejo está estructurado por tres componentes o fases, los cuales se detallan en el siguiente recurso:
