@@ -50,17 +50,17 @@
           .col-md.tarjeta.BGIMG08.p-4
             <br><br><br><br><br><br>                       
             h2.text-center Zonificación
-            p Diferencia los sectores al interior de cada área protegida, estableciendo sectores de preservación y restauración ecológica.
+            p.text-center Diferencia los sectores al interior de cada área protegida, estableciendo sectores de preservación y restauración ecológica.
                 
           .col-md.tarjeta.BGIMG09.p-4 
             <br><br><br><br><br><br>                      
             h2.text-center Lineamientos técnicos
-            p Necesarios para establecer las acciones de preservación, restauración y aprovechamiento sostenible.
+            p.text-center Necesarios para establecer las acciones de preservación, restauración y aprovechamiento sostenible.
 
           .col-md.tarjeta.BGIMG10.p-4
             <br><br><br><br><br><br>                      
             h2.text-center Equipos
-            p Requeridos para el cumplimiento de las acciones previamente mencionadas.
+            p.text-center Requeridos para el cumplimiento de las acciones previamente mencionadas.
             <br> 
                 
       .col-lg-12.mb-3
@@ -79,7 +79,7 @@
 
         .tarjeta.BG02.p-3(x="51.2%" y="22.2%")
           h3 La participación activa en iniciativas que estén a favor de la biodiversidad: 
-          p Un ejemplo es WBCSD por sus siglas en inglés The World Business Council for Sustainable Development, hace referencia a nuevas estrategias de innovación y desarrollo sostenible, en las cuales se cuenta con más de 200 compañías de 35 países y 20 diferentes sectores industriales.
+          p Un ejemplo es WBCSD por sus siglas en inglés <em>The World Business Council for Sustainable Development</em>, hace referencia a nuevas estrategias de innovación y desarrollo sostenible, en las cuales se cuenta con más de 200 compañías de 35 países y 20 diferentes sectores industriales.
       
         .tarjeta.BG02.p-3(x="70%" y="32%")
           h3 Velar por la protección del recurso hídrico:
@@ -112,43 +112,91 @@
   
     .row.BGIMG01.mb-5              
       SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-        .row.align-items-center.tarjeta.BG03.p-5.mx-2        
-          p.text-center Sector hidrocarburos.
-        .tarjeta.BG03.p-5.row.align-items-center.mx-2
-          p.text-center Sector minero.
-        .tarjeta.BG03.p-5.row.align-items-center.mx-2
-          p.text-center La construcción de presas, represas o embalses, cualquiera sea su destinación con capacidad mayor de doscientos millones (200.000.000) de metros cúbicos de agua.
-        .tarjeta.BG03.p-5.row.align-items-center.mx-2   
-          p.text-center Sector eléctrico. 
-        .tarjeta.BG03.p-5.row.align-items-center.mx-2  
-          p.text-center Los proyectos para la generación de energía nuclear.
-        .tarjeta.BG03.p-5.row.align-items-center.mx-2    
-          p.text-center Sector marítimo y portuario.
-        .tarjeta.BG03.p-5.row.align-items-center.mx-2    
-          p.text-center La construcción y operación de aeropuertos internacionales.
-        .tarjeta.BG03.p-5.row.align-items-center.mx-2   
-          p.text-center Ejecución de obras públicas. 
-        .tarjeta.BG03.p-5.row.align-items-center.mx-2    
-          p.text-center La construcción y operación de distritos de riego y/o de drenaje con coberturas superiores a 20.000 hectáreas.
-        .tarjeta.BG03.p-5.row.align-items-center.mx-2                 
-          p.text-center Pesticidas.
-        .tarjeta.BG03.p-5.row.align-items-center.mx-2    
-          p.text-center La importación y/o producción de aquellas sustancias, materiales o productos sujetos a controles por virtud de tratados, convenios y protocolos internacionales de carácter ambiental.
-        .tarjeta.BG03.p-5.row.align-items-center.mx-2    
-          p.text-center Los proyectos que afecten las áreas del sistema de parques nacionales naturales.
-        .tarjeta.BG03.p-5.row.align-items-center.mx-2    
-          p.text-center Los proyectos, obras o actividades de construcción de infraestructura o agroindustria que se pretendan realizar en las áreas protegidas públicas nacionales.
-        .tarjeta.BG03.p-5.row.align-items-center.mx-2    
-          p.text-center Los proyectos que adelanten las Corporaciones Autónomas Regionales a que hace referencia el inciso segundo del numeral 19 del Artículo 31 de la Ley 99 de 1993.
-        .tarjeta.BG03.p-5.row.align-items-center.mx-2    
-          p.text-center Los proyectos que requieran trasvase de una cuenca a otra, cuando al menos una de las dos presente un valor igual o superior a 2 metros cúbicos/segundo durante los períodos de mínimo caudal.
-        .tarjeta.BG03.p-3.row.align-items-center.mx-2    
-          p.text-center La introducción al país de parentales, especies, subespecies, razas, híbridos o variedades foráneas con fines de cultivo, levante, control biológico, reproducción y/o comercialización, para establecerse o implantarse en medios naturales o artificiales, que puedan afectar la estabilidad de los ecosistemas o de la vida silvestre.
+        .tarjeta-avatar
+          img.mb-5(src='@/assets/curso/tema1/img14.png' alt='AvatarTop')   
+          .tarjeta.BG03.align-items-center
+            .p-4.pt-5               
+              p.text-center Sector hidrocarburos.
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/img15.png' alt='AvatarTop')   
+          .tarjeta.BG03.align-items-center
+            .p-4.pt-5           
+              p.text-center Sector minero.        
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/img16.png' alt='AvatarTop')   
+          .tarjeta.BG03.align-items-center
+            .p-4.pt-5          
+              p.text-center La construcción de presas, represas o embalses, cualquiera sea su destinación con capacidad mayor de doscientos millones (200.000.000) de metros cúbicos de agua.                
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/img17.png' alt='AvatarTop')   
+          .tarjeta.BG03.align-items-center
+            .p-4.pt-5
+              p.text-center Sector eléctrico. 
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/img18.png' alt='AvatarTop')   
+          .tarjeta.BG03.align-items-center
+            .p-4.pt-5
+              p.text-center Los proyectos para la generación de energía nuclear.
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/img19.png' alt='AvatarTop')   
+          .tarjeta.BG03.align-items-center
+            .p-4.pt-5   
+              p.text-center Sector marítimo y portuario.
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/img20.png' alt='AvatarTop')   
+          .tarjeta.BG03.align-items-center
+            .p-4.pt-5   
+              p.text-center La construcción y operación de aeropuertos internacionales.
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/img21.png' alt='AvatarTop')   
+          .tarjeta.BG03.align-items-center
+            .p-4.pt-5  
+              p.text-center Ejecución de obras públicas. 
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/img22.png' alt='AvatarTop')   
+          .tarjeta.BG03.align-items-center
+            .p-4.pt-5   
+              p.text-center La construcción y operación de distritos de riego y/o de drenaje con coberturas superiores a 20.000 hectáreas.
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/img23.png' alt='AvatarTop')   
+          .tarjeta.BG03.align-items-center
+            .p-4.pt-5                
+              p.text-center Pesticidas.
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/img24.png' alt='AvatarTop')   
+          .tarjeta.BG03.align-items-center
+            .p-4.pt-5   
+              p.text-center La importación y/o producción de aquellas sustancias, materiales o productos sujetos a controles por virtud de tratados, convenios y protocolos internacionales de carácter ambiental.
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/img25.png' alt='AvatarTop')   
+          .tarjeta.BG03.align-items-center
+            .p-4.pt-5   
+              p.text-center Los proyectos que afecten las áreas del sistema de parques nacionales naturales.
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/img26.png' alt='AvatarTop')   
+          .tarjeta.BG03.align-items-center
+            .p-4.pt-5  
+              p.text-center Los proyectos, obras o actividades de construcción de infraestructura o agroindustria que se pretendan realizar en las áreas protegidas públicas nacionales.
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/img27.png' alt='AvatarTop')   
+          .tarjeta.BG03.align-items-center
+            .p-4.pt-5 
+              p.text-center Los proyectos que adelanten las Corporaciones Autónomas Regionales a que hace referencia el inciso segundo del numeral 19 del Artículo 31 de la Ley 99 de 1993.
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/img28.png' alt='AvatarTop')   
+          .tarjeta.BG03.align-items-center
+            .p-4.pt-5   
+              p.text-center Los proyectos que requieran trasvase de una cuenca a otra, cuando al menos una de las dos presente un valor igual o superior a 2 metros cúbicos/segundo durante los períodos de mínimo caudal.
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/img29.png' alt='AvatarTop')   
+          .tarjeta.BG03.align-items-center
+            .p-4   
+              p.text-center La introducción al país de parentales, especies, subespecies, razas, híbridos o variedades foráneas con fines de cultivo, levante, control biológico, reproducción y/o comercialización, para establecerse o implantarse en medios naturales o artificiales, que puedan afectar la estabilidad de los ecosistemas o de la vida silvestre.
 
     
       .col-lg-12.col-md-11.col-sm-11.BGIMG03.p-5 
         .col-lg-8.col-md-10.col-sm-10
-          p.text-white Los Los planes de manejo son utilizados no solo como metodologías para la conservación de áreas ecológicas, sino también, para su restauración, ya que este es el proceso de asistencia a la recuperación ecológica de algún ecosistema, el cual se ha visto degradado, dañado o destruido, sea por acciones del hombre o por desastres naturales. 
+          p.text-white Los planes de manejo son utilizados no solo como metodologías para la conservación de áreas ecológicas, sino también, para su restauración, ya que este es el proceso de asistencia a la recuperación ecológica de algún ecosistema, el cual se ha visto degradado, dañado o destruido, sea por acciones del hombre o por desastres naturales. 
           p.text-white Es necesario tener en cuenta que la restauración ecológica tiene como finalidad recuperar los componentes básicos en tanto a la estructura como a la función y composición, pero no pretende dejar el ecosistema como se encontraba previamente a que se produjeran estos cambios negativos.
 
       .col-lg-12.mb-5
