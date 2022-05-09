@@ -15,7 +15,7 @@
         figure
           img(src='@/assets/curso/intro.png')
     figure
-      .video(data-aos="flip-right")
+      .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/tjWfHto7YII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
      
 </template>

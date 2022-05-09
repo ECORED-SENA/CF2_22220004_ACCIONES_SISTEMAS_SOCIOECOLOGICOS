@@ -2,10 +2,6 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-
-    .row.mb-5
-      .col-lg-5.col-md-5
-        p.text-center.text-white.mb-0.BGIMG04.p-4.text-bold Síntesis 
     
     .row.justify-content-center.mb-5
       .col-lg-12.BGIMG06(data-aos="fade-right")  
