@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="310" height="329.751" viewBox="0 0 310 329.751">
+  <defs>
+    <filter id="Elipse_4978" x="81.281" y="0" width="149.568" height="149.568" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_113622" data-name="Grupo 113622" transform="translate(-1108.5 -1824)">
+    <g id="Grupo_56211" data-name="Grupo 56211" transform="translate(1120.895 1876.204)">
+      <g id="Grupo_56119" data-name="Grupo 56119">
+        <path id="Trazado_184960" data-name="Trazado 184960" d="M137.854,173.7l-23.921,39.16H216.947V173.7Z" transform="translate(-113.934 -173.704)" fill="#037562"/>
+        <path id="Trazado_184961" data-name="Trazado 184961" d="M258.423,173.7l27.305,39.16H179.33V173.7Z" transform="translate(-3.796 -173.704)" fill="#037562"/>
+      </g>
+    </g>
+    <path id="Background" d="M0,0H290a20,20,0,0,1,20,20V245.736a20,20,0,0,1-20,20H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1108.5 1888.016)" fill="#aaeac4"/>
+    <path id="Trazado_149754" data-name="Trazado 149754" d="M349.51,206.98h0a1054.865,1054.865,0,0,1-222.5,0h0V173.7h222.5Z" transform="translate(1022.258 1702.501)" fill="#048c66"/>
+    <g id="Grupo_113253" data-name="Grupo 113253">
+      <g transform="matrix(1, 0, 0, 1, 1108.5, 1824)" filter="url(#Elipse_4978)">
+        <g id="Elipse_4978-2" data-name="Elipse 4978" transform="translate(90.28 6)" fill="#fff" stroke="#048c66" stroke-width="9">
+          <circle cx="65.784" cy="65.784" r="65.784" stroke="none"/>
+          <circle cx="65.784" cy="65.784" r="61.284" fill="none"/>
+        </g>
+      </g>
+      <path id="Trazado_191871" data-name="Trazado 191871" d="M583.714,157.537v-6.978h-1.6l-5.59-13.866V133.35H557.381v2.856l-38.968,14.353H504.292v6.978h13.326V170.79a3.722,3.722,0,0,0,0,7.2v3.6h.963a1.4,1.4,0,1,1-1.4,1.4h-1.927a3.315,3.315,0,0,0,1.531,2.789L512,190.571h-3.181v14.285h19.533V190.571h-3.181l-4.791-4.791a3.309,3.309,0,0,0-.831-5.972v-1.816a3.723,3.723,0,0,0,0-7.206v-13.25h37.838v49.7h-3.524l-3.374,8.02h32.943l-3.374-8.02h-3.524v-49.7Zm-57.294,45.4H510.741V192.5H526.42Zm-11.7-12.361,3.861-3.861,3.861,3.861ZM520.4,174.39a1.818,1.818,0,1,1-1.819-1.819A1.821,1.821,0,0,1,520.4,174.39Zm45.19-9.213-6.286,6.281V158.9Zm-4.925-7.641h12.572l-6.286,6.281Zm6.286,9,7.249,7.243-7.249,7.244-7.248-7.244Zm-7.647,9.566,6.286,6.281-6.286,6.281Zm7.647,7.641,7.249,7.244-7.249,7.244-7.248-7.244Zm-1.361,15.848-6.286,6.281V193.314Zm1.361,1.361,6.286,6.28H560.669Zm1.361-1.361,6.286-6.28v12.561Zm6.286-10.926-6.286-6.281,6.286-6.281Zm-6.286-23.49L574.6,158.9v12.563Zm11.726-14.619h-3.513v-8.718Zm-20.734-13.922,6.286,6.28-6.286,6.281ZM574.6,149.2l-6.286-6.281,6.286-6.28Zm-7.647-7.641-6.286-6.281h12.572Zm0,2.721,6.286,6.281H560.669Zm-9.574-6.019v12.3h-33.4Zm-51.163,14.226h75.569v3.127H506.217Zm72.557,56.676,1.754,4.169H553.382l1.755-4.169Z" transform="translate(717.348 1720.253)" fill="#3bbf74"/>
+    </g>
+  </g>
+</svg>
